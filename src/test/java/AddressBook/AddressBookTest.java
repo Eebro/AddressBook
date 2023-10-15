@@ -1,13 +1,9 @@
-import AddressBook.AddressBook;
-import AddressBook.BuddyInfo;
-import AddressBook.AddressBookRepository;
+package AddressBook;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-
 import java.util.ArrayList;
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest (classes = AddressBook.class)

@@ -16,8 +16,6 @@ public class AddressBook {
     @OneToMany(cascade=CascadeType.ALL, fetch = FetchType.EAGER)
     private List<BuddyInfo> buddyList;
 
-
-
     public AddressBook(){
         buddyList = new ArrayList<BuddyInfo>();
     }
@@ -59,6 +57,9 @@ public class AddressBook {
 
         sb.append("}").append("\n");
         return sb.toString();
+    }
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public static void main(String[] args) {

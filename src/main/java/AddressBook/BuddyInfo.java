@@ -18,6 +18,13 @@ public class BuddyInfo {
         name = buddyName;
         phoneNumber = buddyPhoneNumber;
     }
+
+    public BuddyInfo(Integer budId, String budName, String budPhone){
+        id = budId;
+        name = budName;
+        phoneNumber = budPhone;
+    }
+
     public BuddyInfo() {
     }
 
