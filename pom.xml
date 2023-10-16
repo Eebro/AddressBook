@@ -80,7 +80,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>AddressBook.AddressBook</mainClass>
+                            <mainClass>AddressBook.ApplicationLauncher</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
